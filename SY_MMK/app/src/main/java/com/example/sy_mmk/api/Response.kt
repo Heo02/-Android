@@ -13,13 +13,12 @@ data class Body(
 )
 
 data class Items(
-    val item: List<TouristInfo>
+    val item: List<SearchInfo>
 )
 
-data class TouristInfo(
+data class SearchInfo(
     val addr1: String,          // 주소
     val addr2: String?,         // 상세 주소
-    val firstimage: String,     // 대표 사진
     val modifiedtime: String,   // 최근 수정일
     val title: String           // 관광지 명
 )

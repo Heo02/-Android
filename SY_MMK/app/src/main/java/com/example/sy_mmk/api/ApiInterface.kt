@@ -11,7 +11,7 @@ interface ApiInterface {
         private const val authKey = "aiwbo1FYOvdp8hkr7wwGl3JuYGvOldXuPvNET5dL5Cdv16arcfbWAziV3CVlJWalpxIbwz2Ssl90N1bnp/wvyA=="
     }
 
-    @GET("searchKeyword")
+    @GET("searchKeyword1")
 
     fun getSearchInfo(
         @Query("serviceKey")

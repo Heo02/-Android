@@ -13,10 +13,11 @@
         android:theme="@style/Theme.SY_MMK"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.SY_MMK">
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
